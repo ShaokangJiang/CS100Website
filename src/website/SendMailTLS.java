@@ -15,7 +15,7 @@ public class SendMailTLS {
     public static void main(String to, String subject, String content) {  
   
         final String username = "hatefate@outlook.com";  
-        final String password = "qwerty88";  
+        final String password = "*PASSWORD*";  
           
         // ’º˛œ‰  
         //String to = "huangsk100@gmail.com";  
