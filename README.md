@@ -1,6 +1,6 @@
  # CS100Website
 
-To go to this website, click [here](http://www.huangsk100.me). Or www.huangsk100.me
+To go to this website, click [here](http://www.huangsk100.me)
 
 Here is the map for this website:
 
