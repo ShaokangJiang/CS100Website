@@ -1,9 +1,4 @@
-/**
-* DESº”√‹/Ω‚√‹
-* @Copyright Copyright (c) 2006
-* @author Guapo
-* @see DESCore
-*/
+
 
 /*
 * encrypt the string to string made up of hex
