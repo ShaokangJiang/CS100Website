@@ -155,8 +155,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
  <script>
 
     document.getElementById("submit").onclick = function(){
-    	document.getElementById("submit").disabled = true;
-    	$("#submit").html('Please wait...');
+    	
+    	
         var z1 = $("#1").val();
        
         var z3 = $("#3").val();
@@ -223,8 +223,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
  <script>
 
     document.getElementById("submit").onclick = function(){
-    	document.getElementById("submit").disabled = true;
-    	$("#submit").html('Please wait...');
+    	
+    	
         var z1 = $("#1").val();
         
         var z3 = $("#3").val();
@@ -526,7 +526,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
           <textarea id="textarea1" class="materialize-textarea" name="other"></textarea>
           <label for="textarea1">What do you want to say to him/her?</label>
         </div>
-          <button class="waves-effect waves-light btn right" id="send" name="submit" onclick="this.disabled=true;this.innerHTML='WAIT';"><i class="material-icons left">send</i>Send</button>
+          <button class="waves-effect waves-light btn right" id="send" name="submit"><i class="material-icons left">send</i>Send</button>
       </form>
        
       </div>

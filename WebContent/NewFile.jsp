@@ -85,7 +85,7 @@ background-size:100% 100%;
               }
               else {
                   document.getElementById("err").innerHTML="<font color='red'>Two times password are not the same.</font>";
-                document.getElementById("submit").disabled = true;
+                
               }
           }
       </script>

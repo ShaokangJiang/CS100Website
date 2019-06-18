@@ -158,8 +158,8 @@ background-size:100% 100%;
         }else{
             document.getElementById("ccid").value="false";
         }
-        document.getElementById("submit").disabled = true;
-    	$("#submit").html('wait');
+        
+    	
     }
     	
     document.getElementById("submit").onclick = function(){
@@ -188,7 +188,7 @@ background-size:100% 100%;
               }
               else {
                   document.getElementById("err").innerHTML="<font color='red'>Two times password are not the same.</font>";
-                document.getElementById("submit").disabled = true;
+                
               }
           }
 

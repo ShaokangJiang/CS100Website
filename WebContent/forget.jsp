@@ -128,8 +128,8 @@ background-size:100% 100%;
       
   }
       document.getElementById("submit").onclick = function(){
-    	  document.getElementById("submit").disabled = true;
-    		$("#submit").html('Please wait...');
+    	  
+    		
           var loginName = $("#loginName").val();
           var key1 = $("#key1").val(); 
           var key2 = $("#key2").val(); 

@@ -144,8 +144,8 @@ if(code.equals(code1)){
       <button class="waves-effect waves-light btn" id="submit">submit</button>
   <script>
               document.getElementById("submit").onclick = function(){
-              document.getElementById("submit").disabled = true;
-          	  $("#submit").html('Please wait...');
+              
+          	  
               var loginName = $("#password").val();
               var loginPwd = $("#newword").val();
               var loginPwd1 = $("#username").val();
@@ -170,7 +170,7 @@ if(code.equals(code1)){
               }
               else {
                   document.getElementById("err").innerHTML="<font color='red'>Two times password are not the same.</font>";
-                document.getElementById("submit").disabled = true;
+                
               }
           }
 
